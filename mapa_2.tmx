@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="6" nextobjectid="1">
+ <tileset firstgid="1" name="spritesheet" tilewidth="128" tileheight="128" tilecount="156" columns="13">
+  <image source="env/Lib/site-packages/arcade/resources/images/spritesheets/tiles.png" width="1664" height="1536"/>
+ </tileset>
+ <tileset firstgid="157" source="env/Lib/site-packages/arcade/resources/tmx_maps/items.tsx"/>
+ <layer id="1" name="plataform" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1AQxUEwuCAbiBCgOGQD9tADEumkwup0QoCSuBxMgNeyZqGg3tjBkorId2AAuO6iRDodiWqYGIOTvkRouIJBAABOjnpAaAIu7FHo=
+  </data>
+ </layer>
+ <layer id="2" name="monedas" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAPmAfFA6V/FOAHhMJ2JIX9cPIrvf1CC/tINZNQWTGc4ncUjAJkAAD2uQgH
+  </data>
+ </layer>
+ <layer id="4" name="fondo" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQCrYNNAOIBNYD7QDqAAoDXt6xh09wxsAsl0CjQ==
+  </data>
+ </layer>
+ <layer id="5" name="Terminar" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAa3AIjrZAwBJoACj
+  </data>
+ </layer>
+ <layer id="3" name="kill" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFpIAKKB4o/aNgZILRdIMAo2FBOzAatgMHTNEwOWoA7DwGWQ==
+  </data>
+ </layer>
+</map>
